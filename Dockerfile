@@ -11,7 +11,6 @@ ENV DISPLAY :60
 
 # Configure VNC via environment variables:
 ENV VNC_ENABLED true
-ENV VNC_PASSWORD secret
 ENV VNC_PORT 5900
 ENV NOVNC_PORT 443
 EXPOSE 5900
